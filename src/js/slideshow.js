@@ -3,7 +3,7 @@
 $(function(){
   //スライドに使用する要素を指定するためにセレクタにslideshowを指定する。
   //プラグインで提供されているメソッド（slick）を使って、スライドショーの設定をしている。
-  $('slideshow').slick({
+  $('.slideshow').slick({
     autoplay: true,
     autoplaySpeed: 3000,
     dots: true
