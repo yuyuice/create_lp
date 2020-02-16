@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/responsive4.css">
+<title>sample7 | Contact</title>
+</head>
+
+<body>
+<div id="stage"> 
+  <header id="header">
+    <h1 id="top"><img src="img/responsive/img_logo.jpg" alt="Responsive,Inc."></h1>
+    <ul id="s_nav" class="cf">
+      <li class="contact"><a href="#">contact</a></li>
+      <li class="news"><a href="#">news</a></li>
+      <li class="sitemap"><a href="#">sitemap</a></li>
+    </ul>
+    <p><img src="img/responsive/image_contact.jpg" alt="Contact to us"></p>
+  </header>
+  
+  <nav id="nav">
+    <ul class="cf">
+      <li class="home"><a href="#"><img src="img/responsive/nav_home.jpg" width="51" height="48" alt="home"></a></li>
+      <li class="service"><a href="#"><img src="img/responsive/nav_service.jpg" width="63" height="48" alt="service"></a></li>
+      <li class="works"><a href="#"><img src="img/responsive/nav_works.jpg" width="50" height="48" alt="works"></a></li>
+      <li class="company"><a href="#"><img src="img/responsive/nav_company.jpg" width="88" height="48" alt="company"></a></li>
+      <li class="recruit"><a href="#"><img src="img/responsive/nav_recruit.jpg" width="59" height="48" alt="recruit"></a></li>
+      <li class="contact active"><a href="#"><img src="img/responsive/nav_contact_on.jpg" width="74" height="48" alt="contact"></a></li>
+    </ul>
+  </nav>
+  
+  <div id="contents" class="cf"> 
+  
+    <!-- contact -->
+    <section id="contact" class="cf">
+        <h2><img src="img/responsive/h2_Contact.jpg" width="87" height="15" alt="Contact"></h2>
+        <p>必要事項を入力し、最後に「入力内容を確認する」を押してください。</p>
+        <form method="POST" action="">
+          <dl class="tbl-layout">
+            <dt>お問い合わせ内容</dt>
+            <dd>
+              <select name="inquiry_select">
+                <option value="" selected>選択してください</option>
+                <option value="1">レスポンシブに関するお問い合わせ</option>
+                <option value="2">会社へのご意見・ご要望</option>
+                <option value="3">その他</option>
+              </select>
+            </dd>
+            <dt>詳細内容</dt>
+            <dd>
+              <textarea name="inquiry_text" rows="10"></textarea>
+              <span>（最大4,000文字）</span></dd>
+            <dt>お名前</dt>
+            <dd>
+              <input type="text" class="w300" name="username">
+            </dd>
+            <dt>フリガナ</dt>
+            <dd>
+              <input type="text" class="w300" name="username_kana">
+            </dd>
+            <dt>電話番号</dt>
+            <dd>
+              <input type="text" class="w70" name="tel1">－
+              <input type="text" class="w70" name="tel2">－
+              <input type="text" class="w70" name="tel3">
+              <span>（半角数字）</span></dd>
+            <dt>メールアドレス</dt>
+            <dd>
+              <input type="text" class="w300" name="email">
+              <span>（半角英数字）</span></dd>
+            <dt>確認用メールアドレス</dt>
+            <dd class="bdchange">
+              <input type="text" class="w300" name="email2">
+              <span>（半角英数字）</span></dd>
+          </dl>
+          <p class="btn">
+            <input type="image" alt="入力内容を確認する"  src="img/responsive/btn_check.jpg" value="submit">
+          </p>
+        </form>
+    </section>
+  </div>
+
+  <a id="pagetopBtn" href="#top"><img src="img/responsive/icn_pagetop.jpg" width="40" height="60" alt="pagetop"></a>
+
+  <footer id="footer">
+    <div>
+      <img src="img/responsive/img_logo_s.jpg" width="164" height="18" alt="Responsive,Inc">
+      <p>レスポンシブ株式会社<br>本社:〒XXX-XXX<br>東京都中央区日本橋レスポンシブビル１階</p>
+      <small>Copyright &copy; 2013 Responsive corporation. All Rights Reserved.</small>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
