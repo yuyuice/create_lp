@@ -2,6 +2,13 @@ body {
   background: #444;
 }
 
+.header {
+  text-align: center;
+  color: darkkhaki;
+  font-size: 30px;
+  margin: 100px auto 50px;
+}
+
 .slideshow {
   width: 500px;
   margin: auto;
