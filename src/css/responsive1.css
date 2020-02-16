@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* clearfix */
+/* クリアフィックス*/
 .cf { zoom: 1; }
 .cf:before, .cf:after { content: ""; display: table; }
 .cf:after { clear: both; }
