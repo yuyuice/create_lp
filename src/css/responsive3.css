@@ -148,9 +148,6 @@ a#pagetopBtn img {
 
 /*フッターのスタイル*/
 
-footer {
-  border-top: 10px solid #000;
-}
 
 footer div {
   margin: 20px 0 0 20px;
@@ -196,7 +193,6 @@ footer div small {
 
   nav {
     text-align: center;
-    border-bottom: 3px double #000;
     margin: 10px auto 15px auto;
   }
 
